@@ -1,4 +1,4 @@
-# This Cloud Build task can kick off our actual deploy if the hash has changed.
+# This locking Cloud Build task can kick off our actual deploy if the hash has changed.
 
 steps:
   - name: node:14
